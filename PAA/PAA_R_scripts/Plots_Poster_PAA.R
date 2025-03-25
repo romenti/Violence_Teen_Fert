@@ -233,7 +233,7 @@ plot_coef_subregions = ggplot(data_plot %>% filter(subregion!='World'),
 
 
 ggsave(plot_poster,file='Figures_PAA/plot_coef.pdf', height = 90, width = 125,units = 'cm',dpi=700)
-ggsave(plot_map,file='map_poster_new.pdf', height = 65, width = 125,units = 'cm',dpi=700)
+ggsave(plot_map,file='Figures_PAA/map_poster_new.pdf', height = 65, width = 125,units = 'cm',dpi=700)
 
 
   
